@@ -1,11 +1,9 @@
 body {
 	font-family: 'Titilium Web', sans-serif;
-	width: 100%;
 	margin: 0;
 	padding: 0;
 	color: #fff;
 	cursor: default;
-	font-size: 18px;
 }
 
 div, p, ul, li, ol, h1, h2, h3, h4, h5, h6, i {
@@ -41,7 +39,6 @@ a {
 .menu {
 	float: right;
 	text-transform: uppercase;
-	color: #fff;
 }
 
 .menu li {
@@ -167,17 +164,10 @@ a {
 	background: url(../img/flag.png) no-repeat top center;
 	padding-top: 130px;
 }
-	
-}
-
-.design {
-// 	border: 1px solid #000;
-}
 
 .design {
 	background: url(../img/crayon.png) no-repeat top center;
 	padding-top: 130px;
-
 }
 
 .development {
@@ -499,7 +489,6 @@ a {
 }
 
 .portfolio-btn button {
-	font-size: 18px;
 	width: 273px;
 	height: 70px;
 	background: #3BBD9B;
@@ -512,6 +501,7 @@ a {
 	margin: 0 auto;
 	cursor: pointer;
 	transition: 0.2s;
+	font-size: 18px;
 }
 
 .portfolio-btn button:hover {
@@ -554,9 +544,16 @@ a {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-//	justify-content: space-between;
 	flex-wrap: wrap;
 	margin-top: 70px;	
+}
+
+.chanel-review {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 }
 
 .logo-chanel {
@@ -566,12 +563,9 @@ a {
 	background: #6F6F6F;
 }
 
-.chanel-review div {
-	display: inline-block;
-}
-
 .reviews-text {
 	font-style: italic;
+	margin-left: 15px;
 }
 
 .reviews-name {
@@ -587,15 +581,18 @@ a {
 
 .from {
 	margin-left: 130px;
-	margin-top: 30px;
 }
 
 .adriana {
 	margin-left: 130px;
 }
 
-.adriana-review div {
-	display: inline-block;
+.adriana-review {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 }
 
 .logo-adriana {
@@ -609,8 +606,12 @@ a {
 	margin-top: 155px;
 }
 
-.anne-review div {
-	display: inline-block;
+.anne-review {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 }
 
 .logo-anne {
@@ -625,8 +626,12 @@ a {
 	margin-left: 95px;
 }
 
-.emma-review div {
-	display: inline-block;
+.emma-review {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 }
 
 .logo-emma {
@@ -771,7 +776,7 @@ footer {
 	width: 940px;
 	margin: 0 auto;
 	padding-top: 45px;
-	padding-left: 15px;
+	padding-left: 35px;
 }
 
 .soc li {
