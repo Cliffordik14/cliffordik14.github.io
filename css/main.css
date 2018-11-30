@@ -5,6 +5,7 @@ body {
 	padding: 0;
 	color: #fff;
 	cursor: default;
+	font-size: 18px;
 }
 
 div, p, ul, li, ol, h1, h2, h3, h4, h5, h6, i {
@@ -498,7 +499,7 @@ a {
 }
 
 .portfolio-btn button {
-	font-size: 17px;
+	font-size: 18px;
 	width: 273px;
 	height: 70px;
 	background: #3BBD9B;
