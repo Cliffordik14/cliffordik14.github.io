@@ -4,6 +4,7 @@ body {
 	padding: 0;
 	color: #fff;
 	cursor: default;
+	width: 100%;
 }
 
 div, p, ul, li, ol, h1, h2, h3, h4, h5, h6, i {
@@ -269,7 +270,7 @@ a {
 }
 
 .skills {
-	background: #fff;
+//	background: #fff;
 	margin-bottom: 120px;
 }
 
@@ -452,7 +453,7 @@ a {
 	display: -o-flex;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-between;
 	margin-top: 65px;
 }
 
