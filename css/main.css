@@ -772,20 +772,20 @@ footer {
 	background: #354184;
 	color: #fff;
 	font-size: 24px;
-	height: 110px;
-
 }
 
-.footer-link {
-	width: 940px;
-	margin: 0 auto;
-	padding-top: 45px;
-	padding-left: 35px;
+.soc {
+	padding-top: 25px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .soc li {
-	display: inline-block;
-	margin-left: 27px;
 	transition: 0.2s;
 	cursor: pointer;
 }
