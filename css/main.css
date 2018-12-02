@@ -143,6 +143,7 @@ a {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	text-align: center;
 }
@@ -215,6 +216,7 @@ a {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	padding-top: 80px;
 	padding-bottom: 125px;
@@ -308,6 +310,7 @@ a {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	text-transform: uppercase;
 	margin-top: 90px;
@@ -669,10 +672,13 @@ a {
 }
 
 .form {
-	width: 840px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
 	padding-top: 80px;
-	display: block;
-	margin: auto;
 }
 
 .form input {
@@ -681,11 +687,16 @@ a {
 	border-radius: 5px;
 	border: none;
 	color: #fff;
+	font-size: 16px;
 }
 
 .form:active, :hover, :focus {
     outline: 0;
     outline-offset: 0;
+}
+
+.email {
+	margin-left: 15px;
 }
 
 input:focus::-webkit-input-placeholder { color:transparent; }
@@ -697,19 +708,6 @@ textarea:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
 textarea:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
 textarea:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
-.name-form {
-	width: 60%;
-	height: 40px;
-	padding-left: 10px;
-}
-
-.email {
-	padding-left: 10px;
-//	margin-left: 9px;
-	width: 60%;
-	height: 40px;
-}
-
 .name-form::placeholder {
 	font-size: 18px;
 	color: #fff;
@@ -719,11 +717,13 @@ textarea:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 textarea {
 	font-family: 'Titilium Web', sans-serif;
 	margin-top: 30px;
-	width: 80%;
+	width: 60%;
 	height: 200px;
 	padding-left: 10px;
 	background: #293267;
 	border: none;
+	color: #fff;
+	font-size: 14px;
 }
 
 textarea::placeholder {
@@ -774,8 +774,12 @@ footer {
 }
 
 .footer-link {
-	width: 940px;
-	margin: 0 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
 	padding-top: 45px;
 	padding-left: 35px;
 }
