@@ -672,18 +672,24 @@ a {
 }
 
 .form {
-	width: 80%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 	padding-top: 80px;
-	display: block;
-	margin: auto;
 }
 
 .form input {
+	width: 500px;
 	box-sizing: border-box;
 	background: #293267;
 	border-radius: 5px;
 	border: none;
 	color: #fff;
+	font-size: 16px;
 }
 
 .form:active, :hover, :focus {
@@ -708,7 +714,7 @@ textarea:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 .email {
 	padding-left: 10px;
-//	margin-left: 9px;
+	margin-left: 9px;
 	width: 60%;
 	height: 40px;
 }
@@ -719,14 +725,20 @@ textarea:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 	transition: 0.2s;
 }
 
+.t-a {
+	margin-top: 50px;
+}
+
 textarea {
 	font-family: 'Titilium Web', sans-serif;
-	margin-top: 30px;
-	width: 80%;
-	height: 200px;
-	padding-left: 10px;
+	display: block;
 	background: #293267;
 	border: none;
+	width: 800px;
+	height: 200px;
+	margin: 0 auto;
+	padding-left: 10px;
+	color: #fff;
 }
 
 textarea::placeholder {
@@ -783,6 +795,7 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	padding-bottom: 25px;
 }
 
 .soc li {
@@ -792,4 +805,10 @@ footer {
 
 .soc li:hover {
 	color: #46A7D9;
+}
+
+@media (max-width: 840px){
+	textarea {
+		width: 300px;
+	}
 }
