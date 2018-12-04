@@ -73,7 +73,7 @@ body {
 	transform: rotate(-40deg);
 	margin-left: 310px;
 	margin-top: 10px;
-	
+	position: absolute;
 	z-index: 1;
 }
 
