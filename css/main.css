@@ -556,7 +556,7 @@ body {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	flex-wrap: wrap;
+//	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
