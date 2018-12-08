@@ -659,8 +659,14 @@ body {
 }
 
 .up-title {
-	margin-left: 500px;
+//	margin-left: 500px;
 	padding-top: 230px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
 }
 
 .logo-description-title{
@@ -670,7 +676,6 @@ body {
 	display: -o-flex;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
 	position: absolute;
 	z-index: 1;
 }
@@ -701,7 +706,7 @@ body {
 	background: #8A5EE5;
 	position: absolute;
 	transform: rotate(-45deg);
-	margin-left: 115px;
+	margin-left: -320px;
 	margin-top: 70px;
 }
 
@@ -711,7 +716,7 @@ body {
 	background: #8A5EE5;
 	position: absolute;
 	transform: rotate(-45deg);
-	margin-left: 450px;
+//	margin-left: 450px;
 	margin-top: 70px;
 }
 
