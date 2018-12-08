@@ -36,8 +36,14 @@ body {
 	margin: 0 auto;
 }
 
+.wrapper {
+	max-width: 1903px;
+	margin: 0 auto;
+}
+
 .bg-first {
 	background-image: url(../img/bg.jpg);
+	background-position: cover;
 	height: 100vh;
 }
 
@@ -421,11 +427,9 @@ body {
 
 .collaboration-2nd {
 	background: #F5F2F9;
-	padding-left: 185px;
 }
 
 .growth-number-title-2nd {
-	margin-left: 190px;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -441,7 +445,6 @@ body {
 	color: #BABABA;
 	margin-top: 30px;
 	padding-bottom: 65px;
-	margin-left: 185px;
 }
 
 .growth-2nd {
@@ -485,7 +488,7 @@ body {
 	margin-left: 800px;
 }
 
-.active {
+.active-1 {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -550,7 +553,7 @@ body {
 	margin-left: 130px;
 }
 
-.contact {
+.contact-1 {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -598,7 +601,7 @@ body {
 	background-image: url(../img/find-contact.jpg);
 }
 
-.work {
+.work-1 {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -675,6 +678,7 @@ body {
 	width: 130px;
 	height: 137px;
 	background-image: url(../img/artwork.png);
+	background-repeat: no-repeat;
 }
 
 .description-title {
