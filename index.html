@@ -6,13 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Open+Sans:400,700|Ubuntu:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
 	<header class="header">
 		<div class="container">
-			<img src="img/logo.png" alt="logo" class="logo">
+			<img src="img/logo.png" alt="logo" class="logo animated fadeInDown">
 			<div class="wrapper">
-				<div class="offer">
+				<div class="offer animated fadeInLeft">
 					<h1 class="title">
 						С помощью верстки
 						я создам ту жизнь, о которой
@@ -23,27 +24,27 @@
 					</p>
 					<a href="#" class="btn">Двигаться к мечте!</a>
 				</div>
-				<img src="img/explore.png" alt="explore" class="explore">
+				<img src="img/explore.png" alt="explore" class="explore animated fadeInRight">
 			</div>
 		</div>
 	</header>
 	<section class="in__front">
 		<div class="container">
-			<h1 class="title-f">Что меня ждет впереди</h1>
-			<div class="wait">
+			<h2 class="title-f">Что меня ждет впереди</h2>
+			<div class="wait animated">
 				<div class="block">
 					<div class="photo"><img src="img/clock.png" alt="clock"></div>
-					<h2>Cвободное время</h2>
+					<h3>Cвободное время</h3>
 					<p>Мне нужно свободное время на семью и самое настоящее</p>
 				</div>
 				<div class="block">
 					<div class="photo"><img src="img/island.png" alt="island"></div>
-					<h2>Яркие путешествия</h2>
+					<h3>Яркие путешествия</h3>
 					<p>Мне нужно свободное время на семью и самое настоящее</p>
 				</div>
 				<div class="block">
 					<div class="photo"><img src="img/rocket.png" alt="rocket"></div>
-					<h2>Создание ценности</h2>
+					<h3>Создание ценности</h3>
 					<p>Мне нужно свободное время на семью и самое настоящее</p>
 				</div>
 			</div>
@@ -51,20 +52,22 @@
 	</section>
 	<section class="responsive">
 		<div class="container">
-			<h1 class="title-r">Форма заказа билета в будущее</h1>
-			<form action="#" class="ticket">
-				<input type="text" placeholder="Имя">
-				<input type="text" placeholder="E-Mail">
-				<input type="text" placeholder="Телефон">
-				<input type="text" placeholder="Куда я полечу в ближайшее время?">
-				<a href="#" class="btn">Двигаться к мечте!</a>
+			<h2 class="title-r">Форма заказа билета в будущее</h2>
+			<form action="#" class="ticket animated">
+				<input type="name" required placeholder="Имя">
+				<input type="email" required placeholder="E-Mail">
+				<input type="number" required placeholder="Телефон">
+				<input type="text" required placeholder="Куда я полечу в ближайшее время?">
+				<input type="submit" value="Двигаться к метчте!" class="btn form-btn">
 			</form>
 		</div>
 	</section>
 	<footer class="footer">
 		<div class="container">
-			<p>© Все мои мечты защищены моим трудолюбием</p>
+			<p  class="credits animated">© Все мои мечты защищены моим трудолюбием</p>
 		</div>
 	</footer>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
