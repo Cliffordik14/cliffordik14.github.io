@@ -26,7 +26,7 @@ $(window).scroll(function() {
 
             var topOfWindow = $(window).scrollTop();
             if (imagePos < topOfWindow+1800) {
-                $(this).addClass("fadeInRight");
+                $(this).addClass("fadeInUp");
             }
         });
     });
