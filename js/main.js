@@ -25,8 +25,8 @@ $(window).scroll(function() {
             var imagePos = $(this).offset().top;
 
             var topOfWindow = $(window).scrollTop();
-            if (imagePos < topOfWindow+1800) {
-                $(this).addClass("fadeInUp");
+            if (imagePos < topOfWindow+1200) {
+                $(this).addClass("fadeInDown");
             }
         });
     });
